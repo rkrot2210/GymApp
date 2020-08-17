@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/back_step"
+            android:layout_width="35dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="34dp"
+            android:layout_weight="0.1"
+            android:background="#E4E4E4"
+            android:contentDescription="TODO"
+            app:srcCompat="@drawable/vector_back" />
+
+        <TextView
+            android:id="@+id/type_training"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="76dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/montserrat_bold"
+            android:lineHeight="24sp"
+            android:text="Видеобиблиотека"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/video_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

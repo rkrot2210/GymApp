@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GymApllication</string>
+    <string name="auth">Авторизуясь, вы соглашаетесь с
+<u>политикой конфиденциальности,
+договором оферты и
+условиями использования</u></string>
+</resources>
